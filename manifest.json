@@ -2,7 +2,7 @@
   "name": "Roblox Launcher",
   "short_name": "Roblox",
   "description": "Launch the Roblox game from your home screen",
-  "start_url": "index.html",
+  "start_url": "https://classroom84x-games.github.io/roblox-app/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
