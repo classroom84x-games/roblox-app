@@ -2,7 +2,7 @@
   "name": "Roblox Launcher",
   "short_name": "Roblox",
   "description": "Launch the Roblox game from your home screen",
-  "start_url": "/",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
