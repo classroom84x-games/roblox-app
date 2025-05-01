@@ -13,12 +13,10 @@
     <link rel="manifest" href="manifest.json">
 
     <script>
-      // This function will handle the visibility change event
       document.addEventListener("visibilitychange", function() {
-        // If the document becomes visible, reload the page
         if (document.visibilityState === "visible") {
           console.log('App is visible again, refreshing...');
-          location.reload();  // Refresh the page
+          location.reload();  
         }
       });
 
