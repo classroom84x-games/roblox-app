@@ -13,10 +13,20 @@
     <link rel="manifest" href="manifest.json">
 
     <script>
-window.onload = function() {
-      window.location.href = "roblox://";
-    };
+      // This function will handle the visibility change event
+      document.addEventListener("visibilitychange", function() {
+        // If the document becomes visible, reload the page
+        if (document.visibilityState === "visible") {
+          console.log('App is visible again, refreshing...');
+          location.reload();  // Refresh the page
+        }
+      });
+
+      window.onload = function() {
+        window.location.href = "roblox://";
+      };
     </script>
+
     <script>    
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
@@ -25,7 +35,7 @@ window.onload = function() {
             console.log('Service Worker registration failed: ', error);
         });
     }
-</script>
+    </script>
 </head>
 <body>
     <h1>Roblox Launcher by Classroom84x for Android</h1>
